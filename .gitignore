@@ -1,0 +1,16 @@
+# Python environment and generated cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and private material
+.env
+.env.*
+!.env.example
+id_rsa
+id_ed25519
+private/
+
+# Put bulky original evidence here; document its source and hash in the writeup
+raw-large/
